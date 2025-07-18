@@ -14,3 +14,22 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active:
+      - "qa"
+
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to SBank cards related local APIs "
+  contactDetails:
+    name: "Developer"
+    email: "developer@gmail.com"
+  onCallSupport:
+    - (333) 456-3847
+    - (222) 876-6543

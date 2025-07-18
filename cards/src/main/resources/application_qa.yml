@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to SBank cards related QA APIs "
+  contactDetails:
+    name: "Developer"
+    email: "developer@gmail.com"
+  onCallSupport:
+    - (322) 099-8866
+    - (222) 888-0044
