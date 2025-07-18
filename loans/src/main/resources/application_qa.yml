@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to SBank loans related QA APIs "
+  contactDetails:
+    name: "Developer"
+    email: "developer@gmail.com"
+  onCallSupport:
+    - (555) 876-9807
+    - (777) 987-9604
