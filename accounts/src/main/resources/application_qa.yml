@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to SBank accounts related QA APIs "
+  contactDetails:
+    name: "Developer"
+    email: "developer@gmail.com"
+  onCallSupport:
+    - (444) 345-1524
+    - (444) 765-8673
