@@ -21,6 +21,7 @@ spring:
   config:
     import: "optional:configserver:http://localhost:8071/"
 
+# refreshing configs at runtime
 management:
   endpoints:
     web:
