@@ -1,0 +1,8 @@
+**/target/
+**/build/
+.idea/
+*.iml
+**/jib-cache/
+**/jib-image.*
+**/maven-status/
+.DS_Store
