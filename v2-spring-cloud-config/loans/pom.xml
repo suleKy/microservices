@@ -118,7 +118,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>myapp/${project.artifactId}:s6</image>
+						<image>73511111/${project.artifactId}:s6</image>
 					</to>
 				</configuration>
 			</plugin>
