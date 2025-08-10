@@ -44,3 +44,9 @@ info:
     name: "accounts"
     description: "SBank Accounts Application"
     version: "1.0.0"
+
+logging:
+  level:
+    com:
+      myapp:
+        accounts: DEBUG
