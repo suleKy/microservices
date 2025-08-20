@@ -80,4 +80,6 @@ resilience4j.retry:
       exponentialBackoffMultiplier: 2
       ignoreExceptions:
         - java.lang.NullPointerException
+      retryExceptions:
+        - java.util.concurrent.TimeoutException
       
