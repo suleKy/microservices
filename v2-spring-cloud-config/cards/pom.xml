@@ -112,7 +112,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>73511111/${project.artifactId}:s9</image>
+						<image>73511111/${project.artifactId}:s10</image>
 					</to>
 				</configuration>
 			</plugin>
